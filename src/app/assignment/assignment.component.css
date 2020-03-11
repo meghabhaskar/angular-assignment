@@ -1,3 +1,10 @@
+.box {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
 button {
   padding: 10px;
   font-size: 16px;
@@ -9,33 +16,38 @@ button {
 button:hover, button:focus{
   background-color: cadetblue;
 }
-table {
-  text-align: center;
-  align-content: center;
-  align-items: center;
+table {  
+  position: relative; 
+  left: 30%;  
+  width: 40%;
+  padding: 60px;
 }
-table thead th{
-  text-align:centre;
+
+table thead th {
+  font-family : Areial;
+  font-style: bold; 
 }
-table tr td{
-  text-align:centre;
+
+table tr td {
+  font-family : Areial;
+  font-style: italic; 
 }
+
 .Premium {
   color: red;
   font-family : Areial;
+  text-align: center;
 }
 
 .Firstclass {
   color: orangered;
   font-family: Calibri;
-  text-align:centre;
+  text-align: center;
 }
 
 .Secondclass {
   color : brown;
   font-family: Times New Roman;
+  text-align: center;
 }
 
-body {
-  text-align:centre;
-}

@@ -1,0 +1,41 @@
+button {
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: blueviolet;
+  font-family: sans-serif;
+}
+
+button:hover, button:focus{
+  background-color: cadetblue;
+}
+table {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+table thead th{
+  text-align:centre;
+}
+table tr td{
+  text-align:centre;
+}
+.Premium {
+  color: red;
+  font-family : Areial;
+}
+
+.Firstclass {
+  color: orangered;
+  font-family: Calibri;
+  text-align:centre;
+}
+
+.Secondclass {
+  color : brown;
+  font-family: Times New Roman;
+}
+
+body {
+  text-align:centre;
+}
